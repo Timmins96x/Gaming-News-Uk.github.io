@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming News UK | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-main.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="#">
+                <h2 class="logo">Gaming News <span>UK</span></h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories.html" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/reviews.html" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/news.html" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/careers.html" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/contact.html" class="list-link">Contact</a>
+                    </li>
+                    <!-- Sign in/up small nav deactivated   
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li> 
+                    -->
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+                <!-- Sign in/up button deactivated
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+                -->
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">pinned news</span>
+                    </h3>
+                    <span class="headline-description">Looking for a new career? We will be hiring soon...</span>
+                </div>
+
+                <a href="/posts/new-world-worth-going-back-to.html" class="article featured-article featured-article-1">
+                    <img src="/images/featured/featured-4.jpg" alt="New World" class="article-image">
+                    <span class="article-category">MMORPG</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Oct 2nd 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>15 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is New World worth going back to?</h3>
+
+                    </div>
+                </a>
+
+                <a href="/posts/assassins-creed-mirage-is-official.html" class="article featured-article featured-article-2">
+                    <img src="/images/featured/featured-5.jpg" alt="Assassins Creed Mirage" class="article-image">
+                    <span class="article-category">Action</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Sep 5th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Assassins Creed Mirage is official!</h3>
+
+                    </div>
+                </a>
+
+                
+
+                <a href="/posts/the-day-before-delayed-until-2023.html" class="article featured-article featured-article-3">
+                    <img src="/images/featured/featured-6.jpg" alt="The day before" class="article-image">
+                    <span class="article-category">Adventure</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Aug 2nd 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Day Before delayed until 2023</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending news</h3>
+
+                <a href="/posts/smites-newest-god-ishtar.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="/images/trending/trending-6.jpg" alt="Ishtar Smite god" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Smite's newest god</h3>
+
+                    </div>
+                </a>
+
+                <a href="/posts/conan-exiles-age-of-sorcery-update.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="/images/trending/trending-7.jpg" alt="Conan Exiles" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>01 Sep 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Conan Exiles update</h3>
+
+                    </div>
+                </a>
+
+                <a href="/posts/stardew-valley-review-2022.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="/images/trending/trending-8.jpg" alt="Stardew Valley" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>02 Sep 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Stardew Valley Review</h3>
+
+                    </div>
+                </a>
+
+                <a href="/posts/rtx-40-series.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="/images/trending/trending-9.jpg" alt="40 Series Graphics card" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>06 Sep 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">RTX 40 Series</h3>
+
+                    </div>
+                </a>
+
+                <a href="/posts/aliens-fireteam-pathogen-update.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="/images/trending/trending-11.jpg" alt="Aliens Fireteam Pathogen" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>25 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Aliens Fireteam DLC</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="/posts/cyberpunk-update-edgerunner.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-7.jpg" alt="Cyberpunk" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>06 Sep 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 Min read</span>
+                            </div>
+                            <h3 class="title article-title">New Cyberpunk Update!</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="/posts/ark-survival-2-what-we-know.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-8.jpg" alt="Ark Survival 2" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>21 Aug 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>6 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Ark Survival 2 what we know</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="/posts/paragon-2.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-9.jpg" alt="Paragon 2" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Aug 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Paragon 2?</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="/posts/elder-scrolls-online-the-lost-depths-dlc.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-10.jpg" alt="Elder Scrolls Online" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>05 Aug 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>6 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Elder Scrolls Online The Lost Depths arrives for consoles..</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="/posts/the-strangest-game-ive-seen.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-11.jpg" alt="One hour one life" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>2 Aug 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>6 Min read</span>
+                            </div>
+                            <h3 class="title article-title">The Strangest game i've seen..</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="/posts/conquerors-blade-season-colosseum.html" class="article swiper-slide">
+                        <img src="/images/quick_read/quick-read-12.jpg" alt="Conquerors Blade" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>05 Sep 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Conqueror's Blade Season Colosseum released</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="/posts/phasmaphobia-complete-roadmap-2022.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-posts-8.jpg" alt="Phasmophobia roadmap 2022" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>01 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Phasmophobia 2022 Roadmap!</h3>
+                        <p class="article-description">The complete roadmap for 2022 has been released by the developer of Phasmophobia, read on to find out whats upcoming.</p>
+
+                    </div>
+                </a>
+
+                <a href="/posts/smite-newest-god-lancelot.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-post-9.jpg" alt="Smite Lancelot" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>01 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Smite's newest god</h3>
+                        <p class="article-description">Smite's impressive god list has just increased again, this time bringing in the honourable Lancelot.</p>
+
+                    </div>
+                </a>
+
+                <a href="/posts/for-honor-review-2022.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-post-10.jpg" alt="For Honor Review 2022" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>15 Sep 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">For Honor Review 2022</h3>
+                        <p class="article-description">For Honor released back in 2017, but how has the game changed in 2022? </p>
+
+                    </div>
+                </a>
+
+                <a href="/posts/7-days-to-die-review-2022.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-post-11.jpg" alt="7 days to die review 2022" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>25 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">7 days To Die Review 2022</h3>
+                        <p class="article-description">7 Days to die released in 2013, and is still in early access to this day, read on to see if its worth playing in 2022.</p>
+
+                    </div>
+                </a>
+
+                <a href="/posts/age-of-empires-sea-of-monsters.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-post-12.jpg" alt="Age of empires Season 2" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>22 Aug 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Age of Empires IV, Map monsters season event</h3>
+                        <p class="article-description">Age of empires, one of the best strategy games available, season two has released along with a new event, map monsters: By stars and sea.</p>
+
+                    </div>
+                </a>
+
+                <a href="/posts/conquerors-blade-season-helheim.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="/images/older_posts/older-post-7.jpg" alt="Conquerors Blade Helheim" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Jun 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Conqueror's Blade Season Helheim</h3>
+                        <p class="article-description">Season Helheim has released on Conqueror's Blade, Bringing a ton of new Cosmetics, Units and much more.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="/news.html" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="/categories-pages/mmorpg.html" class="article">
+                    <span class="tag-name">#MMORPG</span>
+                    <img src="/images/tags/mmorpg-tag.jpg" alt="MMORPG" class="article-image">
+                </a>
+
+                <a href="/categories-pages/adventure.html" class="article">
+                    <span class="tag-name">#Adventure</span>
+                    <img src="/images/tags/adventure-tag.jpg" alt="Adventure" class="article-image">
+                </a>
+
+                <a href="/categories-pages/action.html" class="article">
+                    <span class="tag-name">#Action</span>
+                    <img src="/images/tags/action-tag.jpg" alt="Action" class="article-image">
+                </a>
+
+                <a href="/reviews.html" class="article">
+                    <span class="tag-name">#Reviews</span>
+                    <img src="/images/tags/reviews-tag.jpg" alt="Reviews" class="article-image">
+                </a>
+
+                <a href="/categories-pages/general.html" class="article">
+                    <span class="tag-name">#General Gaming News</span>
+                    <img src="/images/tags/general-tag.jpg" alt="General Gaming News" class="article-image">
+                </a>
+
+                <a href="/categories-pages/survival.html" class="article">
+                    <span class="tag-name">#Survival</span>
+                    <img src="/images/tags/survival-tag.jpg" alt="Survival" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to Gaming News <span>UK</span></h6>
+                <p class="newsletter-description">Thank you for reading, as this is a new website i am constantly trying to improve and keep you all upto date with the latest news, some features i will be adding in when i get the time.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Gaming News <span>UK</span></h2>
+                </a>
+                <p class="company-description">Our Media Presence is minimal at the moment, but as the website develops and i get some more eager minded people to join me will have alot more features.</p>
+                <!-- Social media buttons deactivated
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                -->
+                <span class="copyright-notice">&copy;2022 Gaming News UK. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="/categories-pages/mmorpg.html" class="list-link">MMORPG</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories-pages/adventure.html" class="list-link">Adventure</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories-pages/action.html" class="list-link">Action</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/reviews.html" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories-pages/general.html" class="list-link">General</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories-pages/survival.html" class="list-link">Survival</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="/index.html" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/categories.html" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/reviews.html" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/news.html" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/careers.html" class="list-link">Careers</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="/contact.html" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/careers.html" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/contact.html" class="list-link">The Team</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="/affiliate.html" class="list-link">Affiliate</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
