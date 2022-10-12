@@ -311,6 +311,10 @@ body.light-theme{
     height: inherit;
 }
 
+.headline-description span{
+    color: crimson;
+}
+
 .fancy-border{
     position: relative;
     overflow: hidden;
